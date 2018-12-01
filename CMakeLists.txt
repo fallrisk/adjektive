@@ -3,4 +3,4 @@ project(adjektive)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(adjektive main.cpp)
+add_executable(adjektive main.cpp adjectives.h phrase.cpp phrase.h)
